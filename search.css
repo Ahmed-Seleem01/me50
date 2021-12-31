@@ -1,0 +1,35 @@
+.p-link, .p-link > a{
+    text-align: right;
+    padding: 30px;
+}
+.p-link > a{
+    text-align: right;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color:blue;
+}
+.p-link > a:hover{
+    text-decoration: underline;
+}
+
+img{
+  display: block;
+  margin:5% auto 3% auto;
+  width: 8%;
+}
+#form{
+    text-align: center;
+    margin:auto;
+    margin-top: 15px;
+    width:40%;
+}
+
+#form input[type="submit"]{
+    background-color: rgb(245, 246, 246);
+    color: black;
+    margin: 30px 5px 0px 0px;
+    font-size: 1vw;
+}
+
+

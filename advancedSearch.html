@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="advancedsearch.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <div class="p-link">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div>
+            <img src="googlelogo_color_160x56dp_new.png" alt="google image">
+        </div>
+        <div id="form">
+            <form  action="https://google.com/search">
+                <div class="form-inline">
+                    <label for="all">all these words:</label> 
+                    <input id="all" type="text" name="as_q">
+                </div>
+                <div class="form-inline">
+                    <label>this exact word or phrase:</label>
+                    <input type="text" name="as_epq">
+                </div>
+                <div class="form-inline">
+                    <label>any of these words:</label>
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="form-inline">
+                    <label>none of these words:</label>
+                    <input type="text" name="as_eq">
+                </div>
+        
+                <input class="w3-button w3-round-xlarge" type="submit" value="Advanced Search">
+            </form>
+        </div>
+    </body>
+</html>
